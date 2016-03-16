@@ -1,0 +1,19 @@
+{
+  "name": "search-menu-animation",
+  "version": "1.0.0",
+  "description": "Search Menu Animation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cody Chen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenCody/SearchMenuAnim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChenCody/SearchMenuAnim/issues"
+  },
+  "homepage": "https://github.com/ChenCody/SearchMenuAnim#readme"
+}
