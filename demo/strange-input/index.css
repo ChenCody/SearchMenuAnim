@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'xiaowanzi';
+    src: url(xiaowanzi.ttf);
+}
+.container {
+    width: 300px;
+    height: 40px;
+
+}
+
+
+.doudong-input {
+    width: 290px;
+    height: 36px;
+    padding: 14px 18px;
+    color: #444;
+    font-family: xiaowanzi, sans-serif;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background: url(img/strange-input1.png);
+    background-size: 100% 100%;
+}
+.doudong-input:focus {
+    animation: change-bg .4s cubic-bezier(1, 0, 1, 0) infinite;
+}
+
+@keyframes change-bg {
+    0% {
+        background: url(img/strange-input1.png);
+    }
+    20% {
+        background: url(img/strange-input2.png);
+    }
+    40% {
+        background: url(img/strange-input3.png);
+    }
+    60% {
+        background: url(img/strange-input4.png);
+    }
+    80% {
+        background: url(img/strange-input5.png);
+    }
+    100% {
+        background: url(img/strange-input1.png);
+    }
+}
